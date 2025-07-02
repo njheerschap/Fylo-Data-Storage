@@ -6,5 +6,53 @@ body {
     background-image: url("../images/bg-mobile.png");
     background-size: cover;
     color: hsl(234, 100%, 93%);
+    margin: 0;
 }
 
+body, .container {
+    height: 100%;
+}
+
+.box-1 {
+    display: flex;
+    align-items: center;
+    width: 326px;
+    height: 201px;
+    margin: 128px 25px 0px 24px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 100px 10px 10px;
+}
+
+.box-1-container {
+    width: 176px;
+    margin-left: 40px;
+}
+
+.logo {
+    margin-bottom: 32px;
+}
+
+.icons  {
+    display: flex;
+    justify-content: space-around;
+    width: 176px;
+}
+
+.docs, .folder, .upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: #0C122C;
+    border-radius: 10px;
+}
+
+
+.box-2 {
+    width: 326px;
+    height: 124px;
+    margin: 16px 25px 0px 24px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+}
